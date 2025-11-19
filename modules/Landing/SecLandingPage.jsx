@@ -9,7 +9,7 @@ import LPFooter from '../../components/Pages/LandingPage/LPFooter'
 import CTASection from '../../components/Pages/HomePage/CTASection'
 import CertificationSection from '../../components/Pages/SecLandingPage/CertificationSection'
 import CustomersExperienceSection from '../../components/Pages/SecLandingPage/CustomersExperienceSection'
-import SeoHeader from '../../components/utils/SeoHeader'
+
 
 
 function SecLandingPage() {
