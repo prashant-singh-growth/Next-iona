@@ -3,19 +3,31 @@
 
 type AppRoutes = never
 type PageRoutes = never
-type LayoutRoutes = never
-type RedirectRoutes = never
+type LayoutRoutes = "/"
+type RedirectRoutes = "/casestudies" | "/find" | "/novaassist" | "/novadoc" | "/novaengage" | "/novastart" | "/novaverify" | "/scheduledemo" | "/speedboard" | "/trainplus"
 type RewriteRoutes = never
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes
 
 
 interface ParamMap {
+  "/": {}
+  "/casestudies": {}
+  "/find": {}
+  "/novaassist": {}
+  "/novadoc": {}
+  "/novaengage": {}
+  "/novastart": {}
+  "/novaverify": {}
+  "/scheduledemo": {}
+  "/speedboard": {}
+  "/trainplus": {}
 }
 
 
 export type ParamsOf<Route extends Routes> = ParamMap[Route]
 
 interface LayoutSlotMap {
+  "/": never
 }
 
 

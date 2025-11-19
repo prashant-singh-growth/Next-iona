@@ -1,3 +1,268 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/app/_not-found/page-96becd3b40706133.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/not-found-7772f188e36dac8f.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/css/6cb8dfb7e053386e.css",
+      "static/css/ba851d873e20de48.css",
+      "static/css/47d45983f7b6e9a9.css",
+      "static/css/4e35e1f52f751b52.css",
+      "static/css/69f81e06845cd7ae.css",
+      "static/chunks/53c13509-279b4975bf155737.js",
+      "static/chunks/9c4e2130-743d705f621a5e84.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/5166-166a8fbec6a3f1ff.js",
+      "static/chunks/8891-689ae00983218df5.js",
+      "static/chunks/app/layout-2029a25b6a28496a.js"
+    ],
+    "/blogs/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/blogs/page-fbc6d674dc99be91.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/8e1d74a4-d345c21688fc7f61.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/about/page-097974bedd59f7f8.js"
+    ],
+    "/case-studies/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/case-studies/page-7e7028a5d8a3caaf.js"
+    ],
+    "/cookies/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/app/cookies/page-c97fab2d06b95bfe.js"
+    ],
+    "/novatrack/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/9635-75c4689b94ee1edc.js",
+      "static/chunks/app/novatrack/page-7a22240f83e1fda8.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/app/contact/page-84015a6678e9f29f.js"
+    ],
+    "/end-to-end-hiring-solution-for-enterprises/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/css/4e35e1f52f751b52.css",
+      "static/css/a9bcd350dab89cc8.css",
+      "static/chunks/53c13509-279b4975bf155737.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/5166-166a8fbec6a3f1ff.js",
+      "static/chunks/429-4e76cb80e653ed81.js",
+      "static/chunks/4438-c7ff46ae67df523b.js",
+      "static/chunks/app/end-to-end-hiring-solution-for-enterprises/page-74e011936c16b499.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/css/e7015f07b2b71da8.css",
+      "static/css/a9bcd350dab89cc8.css",
+      "static/chunks/53c13509-279b4975bf155737.js",
+      "static/chunks/8e1d74a4-d345c21688fc7f61.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/429-4e76cb80e653ed81.js",
+      "static/chunks/6426-9d1cde6ca640dd56.js",
+      "static/chunks/4438-c7ff46ae67df523b.js",
+      "static/chunks/app/page-c05adb494f9cd586.js"
+    ],
+    "/privacy/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/app/privacy/page-52421ce2e86402ea.js"
+    ],
+    "/solutions/novaassist/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/novaassist/page-34464d543f4b3757.js"
+    ],
+    "/automated-background-verification/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/css/4e35e1f52f751b52.css",
+      "static/chunks/53c13509-279b4975bf155737.js",
+      "static/chunks/578c2090-6d1e28b2ca8c901f.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/5166-166a8fbec6a3f1ff.js",
+      "static/chunks/app/automated-background-verification/page-75c9a583f94df556.js"
+    ],
+    "/schedule-demo/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/app/schedule-demo/page-7448cf016a70f186.js"
+    ],
+    "/solutions/novacount/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/novacount/page-51af6d3bc4b55f4a.js"
+    ],
+    "/solutions/novaconnect/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/novaconnect/page-1a0ecfd88bf34f1c.js"
+    ],
+    "/solutions/novaengage/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/novaengage/page-30b5d2859eaca46c.js"
+    ],
+    "/solutions/novadoc/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/novadoc/page-a219eb92d23f87b2.js"
+    ],
+    "/solutions/novastart/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/novastart/page-9adc0e306993cad6.js"
+    ],
+    "/solutions/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/8e1d74a4-d345c21688fc7f61.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/6426-9d1cde6ca640dd56.js",
+      "static/chunks/app/solutions/page-54cc21bbf3a14ebd.js"
+    ],
+    "/solutions/speedboard/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/9635-75c4689b94ee1edc.js",
+      "static/chunks/app/solutions/speedboard/page-51ae661a560be8f4.js"
+    ],
+    "/solutions/novaverify/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/novaverify/page-0cc630e26ec78460.js"
+    ],
+    "/solutions/trainplus/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/solutions/trainplus/page-f37ae056ca6f5875.js"
+    ],
+    "/terms/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/app/terms/page-1f1fa8363106c9bd.js"
+    ],
+    "/thank-you/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/5e22fd23-0db236a4811898d7.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/thank-you/page-126396e12ecf63ec.js"
+    ],
+    "/videos/page": [
+      "static/chunks/webpack-6b6259d40fa500db.js",
+      "static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "static/chunks/1255-c4d1475735fa20e8.js",
+      "static/chunks/main-app-3f4d3e9384b9c6b9.js",
+      "static/chunks/3709-9cd6b85e87fe770e.js",
+      "static/chunks/2619-0f5b2ce5f55d5d71.js",
+      "static/chunks/app/videos/page-2f41555729c8ae9c.js"
+    ]
+  }
 }

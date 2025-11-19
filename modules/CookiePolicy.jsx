@@ -1,14 +1,11 @@
+"use client"
 import { motion } from "framer-motion";
-import SeoHeader from "../components/utils/SeoHeader";
+
 
 const CookiePolicy = () => {
   return (
     <div className="bg-background">
-       <SeoHeader
-      title={"Cookie Policy | Iona AI"}
-      description={"See how Iona AI uses cookies responsibly to enhance experience, personalize insights, and maintain data clarity."}
      
-      />
       {/* Hero Section */}
       <div className="bg-lightGray py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
