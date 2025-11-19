@@ -1,27 +1,4 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/blogs/page": "app/blogs/page.js",
-  "/about/page": "app/about/page.js",
-  "/case-studies/page": "app/case-studies/page.js",
-  "/cookies/page": "app/cookies/page.js",
-  "/novatrack/page": "app/novatrack/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/end-to-end-hiring-solution-for-enterprises/page": "app/end-to-end-hiring-solution-for-enterprises/page.js",
-  "/page": "app/page.js",
-  "/privacy/page": "app/privacy/page.js",
-  "/solutions/novaassist/page": "app/solutions/novaassist/page.js",
-  "/automated-background-verification/page": "app/automated-background-verification/page.js",
-  "/schedule-demo/page": "app/schedule-demo/page.js",
-  "/solutions/novacount/page": "app/solutions/novacount/page.js",
-  "/solutions/novaconnect/page": "app/solutions/novaconnect/page.js",
-  "/solutions/novaengage/page": "app/solutions/novaengage/page.js",
-  "/solutions/novadoc/page": "app/solutions/novadoc/page.js",
-  "/solutions/novastart/page": "app/solutions/novastart/page.js",
-  "/solutions/page": "app/solutions/page.js",
-  "/solutions/speedboard/page": "app/solutions/speedboard/page.js",
-  "/solutions/novaverify/page": "app/solutions/novaverify/page.js",
-  "/solutions/trainplus/page": "app/solutions/trainplus/page.js",
-  "/terms/page": "app/terms/page.js",
-  "/thank-you/page": "app/thank-you/page.js",
-  "/videos/page": "app/videos/page.js"
+  "/end-to-end-hiring-solution-for-enterprises/page": "app/end-to-end-hiring-solution-for-enterprises/page.js"
 }

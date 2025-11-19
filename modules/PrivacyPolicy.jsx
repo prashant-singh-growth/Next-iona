@@ -1,15 +1,11 @@
 "use client"
 import { motion } from "framer-motion";
-import SeoHeader from "../components/utils/SeoHeader";
+
 
 const PrivacyPolicy = () => {
   return (
     <div className="bg-background">
-       <SeoHeader
-      title={"Privacy Policy | Iona AI"}
-      description={"Learn how Iona.ai protects your data and ensures transparency, security, and trust in every AI-powered hiring experience."}
-     
-      />
+    
       {/* Hero Section */}
       <div className="bg-lightGray py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

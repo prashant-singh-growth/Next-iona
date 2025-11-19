@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import MobileFeatureCard from "../../components/MobileFeatureCard";
-import SeoHeader from "../../components/utils/SeoHeader";
+
 
 const FeatureCard = ({ emoji, title, description, delay }) => {
   return (
@@ -51,11 +51,7 @@ const NovaVerify = () => {
 
   return (
     <div className="flex flex-col items-center overflow-x-hidden">
-        <SeoHeader
-      title={"NovaVerify | Smart Candidate Verification by IONA AI"}
-      description={"Ensure authenticity and trust in hiring with NovaVerify. Leverage AI-driven verification to validate credentials, background, and candidate integrity."}
-     
-      />
+      
       {/* Hero Section */}
       <section className="w-full bg-purple-gradient text-white py-16">
         <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center">

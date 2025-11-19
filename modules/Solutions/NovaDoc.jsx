@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import MobileFeatureCard from "../../components/MobileFeatureCard";
-import SeoHeader from "../../components/utils/SeoHeader";
+
 
 const preloadScheduleDemo = () => {
   return import("../ScheduleDemo");
@@ -52,11 +52,7 @@ const ConnectorLine = ({ delay = 0, vertical = false, length = "100%" }) => {
 const NovaDoc = () => {
   return (
     <div className="flex flex-col items-center overflow-x-hidden">
-        <SeoHeader
-      title={"NovaDoc | Intelligent Document Management by IONA AI"}
-      description={"Automate, organize, and verify hiring documentation effortlessly. NovaDoc ensures accuracy, compliance, and security across your recruitment workflows."}
-     
-      />
+    
       {/* Hero Section */}
       <section className="w-full bg-purple-gradient text-white py-16">
         <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center">

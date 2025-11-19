@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import MobileFeatureCard from "../../components/MobileFeatureCard";
-import SeoHeader from "../../components/utils/SeoHeader";
+
 
 const preloadScheduleDemo = () => {
   return import("../ScheduleDemo");
@@ -51,11 +51,7 @@ const ConnectorLine = ({ delay = 0, vertical = false, length = "100%" }) => {
 const NovaTrain = () => {
   return (
     <div className="flex flex-col items-center overflow-x-hidden">
-        <SeoHeader
-      title={"TrainPlus | AI-Driven Learning & Development by IONA AI"}
-      description={"Upskill your workforce with TrainPlus. Deliver adaptive, personalized learning experiences powered by AI for continuous growth and performance excellence."}
-     
-      />
+      
       {/* Hero Section */}
       <section className="w-full bg-purple-gradient text-white py-16">
         <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center">

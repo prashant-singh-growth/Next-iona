@@ -7,7 +7,7 @@ import {
   isValidPhone, 
   formSubmitLimiter 
 } from "../lib/security";
-import SeoHeader from "../components/utils/SeoHeader";
+
 
 const ScheduleDemo = () => {
   const [formData, setFormData] = useState({
@@ -141,11 +141,7 @@ const ScheduleDemo = () => {
 
   return (
     <div className="bg-background min-h-screen">
-        <SeoHeader
-      title={"Schedule a Demo | Experience the Power of IONA AI"}
-      description={"Book a personalized demo to see how IONA AI simplifies hiring, automates workflows, and empowers teams to find purpose-driven talent faster."}
-     
-      />
+      
       {/* Hero Section - Added proper padding to prevent navbar overlap */}
       <div className="bg-lightGray py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

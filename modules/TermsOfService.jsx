@@ -1,15 +1,11 @@
 "use client"
 import { motion } from "framer-motion";
-import SeoHeader from "../components/utils/SeoHeader";
+
 
 const TermsOfService = () => {
   return (
     <div className="bg-background">
-       <SeoHeader
-      title={"Terms of Use | Iona AI"}
-      description={"Read Iona AI's Terms of Use to understand our commitment to ethical AI, fairness, and transparency in all hiring solutions."}
-     
-      />
+      
       {/* Hero Section */}
       <div className="bg-lightGray py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

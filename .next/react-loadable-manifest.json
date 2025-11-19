@@ -1,68 +1,20 @@
 {
-  "modules\\Solutions\\NovaAssist.jsx -> ../ScheduleDemo": {
-    "id": 6521,
+  "node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
+    "id": "node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
     "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaConnect.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaCount.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaDoc.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaEngage.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaStart.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaTrack.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaTrain.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
-    ]
-  },
-  "modules\\Solutions\\NovaVerify.jsx -> ../ScheduleDemo": {
-    "id": 6521,
-    "files": [
-      "static/chunks/6521.e846a4f802f1533a.js"
+      "static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js"
     ]
   },
   "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
-    "id": 5139,
+    "id": "node_modules\\next\\dist\\client\\index.js -> ../pages/_app",
     "files": [
-      "static/chunks/5139.ff204159bbde7a1e.js"
+      "static/chunks/_pages-dir-browser_node_modules_next_dist_pages__app_js.js"
     ]
   },
   "node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
-    "id": 1646,
+    "id": "node_modules\\next\\dist\\client\\index.js -> ../pages/_error",
     "files": [
-      "static/chunks/1646.9123ee47220ed70b.js"
+      "static/chunks/_pages-dir-browser_node_modules_next_dist_pages__error_js.js"
     ]
   }
 }

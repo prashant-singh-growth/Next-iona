@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import SeoHeader from "../components/utils/SeoHeader";
+
 
 function CaseStudies() {
   const [selectedCaseStudy, setSelectedCaseStudy] = useState(null);
@@ -242,11 +242,7 @@ function CaseStudies() {
 
   return (
     <div className="bg-background min-h-screen">
-       <SeoHeader
-      title={"Case Studies | Real Hiring Success Stories by IONA AI"}
-      description={"Explore how leading organizations transformed their hiring with IONA AI. Real-world results that prove the impact of purposeful, AI-powered talent solutions."}
      
-      />
       {/* Hero Section */}
       <div className="bg-purple-gradient py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

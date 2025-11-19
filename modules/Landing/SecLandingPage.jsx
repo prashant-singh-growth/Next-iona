@@ -15,11 +15,7 @@ import SeoHeader from '../../components/utils/SeoHeader'
 function SecLandingPage() {
   return (
    <div className="bg-white theme-lora-font">
-    <SeoHeader
-    title={"Automated Background Verification Tool | Nova Verify"}
-    description={"Automate background verification with Nova Verify by iona.ai. Cut costs, eliminate manual work, and onboard verified talent 90% faster."}
-
-    />
+   
     <LPHeader/>
     <LandingPageBanner/>
     <ClientBadgeSection/>

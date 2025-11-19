@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import SeoHeader from "../components/utils/SeoHeader";
+
 
 function Vids() {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -88,11 +88,7 @@ function Vids() {
 
   return (
     <div className="bg-background min-h-screen">
-      <SeoHeader
-      title={"Videos | Learn How IONA AI Transforms Hiring with AI"}
-      description={"Watch demos, expert talks, and customer success stories. See how IONA AI’s intelligent solutions redefine how businesses hire, onboard, and engage talent."}
-     
-      />
+    
       {/* Hero Section */}
       <div className="bg-purple-gradient py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

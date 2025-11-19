@@ -6,7 +6,7 @@ import LogoSlider from "../../components/Pages/LandingPage/LogoSlider";
 import FormLandingPage from "../../components/Pages/LandingPage/FormLandingPage";
 import TestimonialSlider from "../../components/utils/TestimonialSlider";
 import WhyUsSection from "../../components/Pages/LandingPage/WhyUsSection";
-import SeoHeader from "../../components/utils/SeoHeader";
+
 
 import ResultSection from "../../components/Pages/LandingPage/ResultSection";
 import CertificationSection from "../../components/Pages/HomePage/CertificationSection";
@@ -18,13 +18,7 @@ import LPFooter from "../../components/Pages/LandingPage/LPFooter";
 function Landingpages() {
   return (
     <div className="w-full font-lora theme-lora-font" id="form">
-      <SeoHeader
-        title={"iona.ai: AI-Powered End-to-End Hiring & Onboarding Solution"}
-        description={
-          "Streamline your hiring with iona.ai. Automate recruitment, ensure compliance, and onboard at scale. Request a demo today!"
-        }
-        canonical={"/end-to-end-hiring-solution-for-enterprises"}
-      />
+    
 
      <LPHeader/>
       <section className="w-full h-fit relative px-5 md:px-10 slg:px-[60px] lg:px-[90px] py-16 lg:py-20 flex flex-col justify-center items-center">

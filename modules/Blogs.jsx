@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import SeoHeader from "../components/utils/SeoHeader";
+
 
 function Blogs() {
   const [selectedBlog, setSelectedBlog] = useState(null);
@@ -193,11 +193,7 @@ function Blogs() {
 
   return (
     <div className="bg-background min-h-screen">
-        <SeoHeader
-      title={"IONA AI Blog | Insights on AI, Hiring & Inclusion"}
-      description={"Read expert perspectives on AI, hiring innovation, and workplace inclusion. Stay updated with IONA AI’s latest research, trends, and thought leadership."}
-     
-      />
+      
       {/* Hero Section */}
       <div className="bg-purple-gradient py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
