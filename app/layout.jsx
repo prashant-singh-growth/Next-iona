@@ -61,16 +61,15 @@ const sora = Sora({
 
 // ----------- AUTO CANONICAL SETUP ----------
 export async function generateMetadata() {
-  const headerList = headers();
-  const pathname = headerList.get("x-invoke-path") || "/";
+  // const headerList = headers();
+  // const pathname = headerList.get("x-invoke-path") || "/";
   const base = "https://www.iona.ai";
 
   return {
     title: 'ionai - Elevating Experiences',
     description: 'AI powered hiring solutions.',
-    metadataBase: new URL(base),
     alternates: {
-      canonical: pathname === "/" ? base : base + pathname,
+      canonical: base,
     },
     icons: {
       icon: '/favicon.ico',
