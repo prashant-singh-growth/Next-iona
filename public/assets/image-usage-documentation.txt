@@ -1,0 +1,32 @@
+# ionai Assets Usage Information
+
+This file documents where each image asset is used in the codebase:
+
+## PNG Files:
+1. /assets/Abhijeet.png - Used in TeamSection.jsx, line 21
+2. /assets/Amit.png - Used in TeamSection.jsx, line 9
+3. /assets/GDPR Logo.png - Used in Footer.jsx, line 109
+4. /assets/HMGovtLogo.png - Used in Footer.jsx, line 111
+5. /assets/iona-ai-logo.png - Used in Navbar.jsx, line 183 and Footer.jsx, line 78
+6. /assets/ionablog1.png - Used in Blogs.jsx, line 16
+7. /assets/IS0 901 Logo.png - Used in Footer.jsx, line 110
+8. /assets/ISO Logo.png - Used in Footer.jsx, line 108
+9. /assets/NovaAssist.png - Used in SolutionsSection.jsx, line 51
+10. /assets/NovaCount.png - Used in SolutionsSection.jsx, line 45
+11. /assets/NovaTrack.png - Used in SolutionsSection.jsx, line 57
+12. /assets/ooj.png - Used in TeamSection.jsx, line 15
+13. /assets/Prospect.png - Used in CaseStudiesSection.jsx, line 12
+14. /assets/partners/ABC DIGITAL.png - Used in PartnerSection.jsx, line 32
+15. /assets/partners/Birla.png - Used in PartnerSection.jsx, line 37
+16. /assets/partners/fab-logo.png - Used in PartnerSection.jsx, line 57
+17. /assets/partners/hdfc.png - Used in PartnerSection.jsx, line 27
+18. /assets/partners/image.png - Used in PartnerSection.jsx, line 42
+19. /assets/partners/metropolis.png - Used in PartnerSection.jsx, line 52
+20. /assets/partners/Ness-f6035e51.png - Used in PartnerSection.jsx, line 47
+
+## GIF Files:
+1. /assets/BG3.gif - Used in ServiceCard.jsx, line 25
+2. /assets/confidence.gif - Used in BenefitsSection.jsx, line 60
+3. /assets/Contact.gif - Used in Contact.jsx, line 41
+4. /assets/FAQ2.gif - Used in FAQSection.jsx, line 10
+5. /assets/iona-unscreen.gif - Used in VisionMissionSection.jsx, line 8 

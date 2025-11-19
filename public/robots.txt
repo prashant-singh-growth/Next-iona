@@ -1,0 +1,18 @@
+# robots.txt for https://www.iona.ai/
+# Last Updated: November 2025
+
+User-agent: *
+# Allow search engines to crawl all public pages
+Allow: /
+
+# Disallow internal or duplicate system paths (if any exist)
+Disallow: /wp-admin/
+Disallow: /search/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Crawl-delay (optional, helps avoid server overload)
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://www.iona.ai/sitemap.xml

@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-gradient: linear-gradient(90deg, #335EEA, #4E7DF7);
+  --blue-red-gradient: linear-gradient(90deg, #335EEA, #E93C3E);
+  --font-montserrat: var(--font-montserrat);
+  --font-inter: var(--font-inter);
+  --font-lora: var(--font-lora);
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  @apply bg-background text-primaryText;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+/* Fix for page content being hidden under fixed navbar */
+main {
+  min-height: 100vh;
+}
+
+/* Additional spacing for page headings */
+main > div > section:first-child,
+main > div > div:first-child {
+  padding-top: 2rem;
+}
+
+p, .secondary-text {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+}
+
+/* Performance optimized animations 
+ * Use transform and opacity for better GPU acceleration
+ */
+@layer utilities {
+  /* Animation utilities */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+    will-change: transform;
+  }
+  
+  /* Optimized animation classes */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  .fade-in { animation: fadeIn 0.8s ease-in-out forwards; }
+  .fade-up { animation: fadeUp 0.8s ease-in-out forwards; }
+  .fade-down { animation: fadeDown 0.8s ease-in-out forwards; }
+  .zoom-in { animation: zoomIn 0.8s ease-in-out forwards; }
+  
+  /* Optimized text styles */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brandBlue to-brandRed;
+  }
+  
+  .red-highlight {
+    @apply text-brandRed font-bold;
+  }
+}
+
+/* Component styles */
+@layer components {
+  /* Button styles */
+  .btn-primary {
+    @apply bg-accent text-white px-6 py-3 rounded-md font-medium transition-all hover:shadow-hover hover:translate-y-[-2px];
+  }
+  
+  .btn-outline {
+    @apply border border-accent text-accent px-6 py-3 rounded-md font-medium transition-all hover:bg-accent/5 hover:shadow-hover;
+  }
+  
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-hover hover:border-accent/50;
+  }
+  
+  /* Service card styles */
+  .service-card {
+    @apply bg-white p-6 rounded-xl shadow-custom transition-all duration-300 hover:shadow-hover;
+  }
+  
+  /* Typography styles */
+  .section-title {
+    @apply text-3xl font-bold mb-4 text-primaryText;
+  }
+  
+  .section-subtitle {
+    @apply text-secondaryText text-lg mb-8 font-secondary;
+  }
+  
+  /* Responsive padding */
+  .section-padding {
+    @apply px-4 sm:px-6 md:px-8 lg:px-12 py-12 md:py-16 lg:py-20;
+  }
+}
+
+/* Custom scrollbar - more efficient implementation */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #335EEA;
+}
+
+/* Header styles */
+.white-header h1, 
+.white-header h2, 
+.white-header h3, 
+.white-header h4, 
+.white-header h5,
+.white-header h6 {
+  @apply text-gray-800;
+}
+
+.white-header p {
+  @apply text-gray-600;
+}
+
+@media (max-width: 1024px) {
+  .navbar-hamburger-gradient span {
+    background: linear-gradient(135deg, #9333EA 0%, #4F46E5 100%) !important;
+    box-shadow: 0 2px 8px rgba(79, 70, 229, 0.15);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-logo {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+}
+.animate-scroll-logo:hover {
+  animation-play-state: paused;
+}
+
+.theme-lora-font h1,
+.theme-lora-font h2,
+.theme-lora-font h3,
+.theme-lora-font h4,
+.theme-lora-font h5,
+.theme-lora-font h6,
+.theme-lora-font p,
+.theme-lora-font a,
+.theme-lora-font button {
+  @apply !font-lora;
+}
+
+* {
+  scroll-margin-top: 80px;
+}
+
