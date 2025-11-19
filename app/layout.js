@@ -4,7 +4,9 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import 'aos/dist/aos.css'
 import ClientWrapper from './ClientWrapper'
+import { headers } from "next/headers";
 
+// ----------- FONTS -----------
 const montserrat = Montserrat({ 
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
@@ -57,16 +59,31 @@ const sora = Sora({
   variable: '--font-sora',
 })
 
-export const metadata = {
-  title: 'ionai - Elevating Experiences',
-  description: 'AI powered hiring solutions.',
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/logo192.png',
-  },
-  manifest: '/manifest.json',
-  themeColor: '#000000',
+// ----------- AUTO CANONICAL SETUP ----------
+export async function generateMetadata() {
+  const headerList = headers();
+  const pathname = headerList.get("x-invoke-path") || "/";
+  const base = "https://www.iona.ai";
+
+  return {
+    title: 'ionai - Elevating Experiences',
+    description: 'AI powered hiring solutions.',
+    metadataBase: new URL(base),
+    alternates: {
+      canonical: pathname === "/" ? base : base + pathname,
+    },
+    icons: {
+      icon: '/favicon.ico',
+      apple: '/logo192.png',
+    },
+    manifest: '/manifest.json',
+  };
 }
+
+// themeColor must be inside viewport → fixes warning
+export const viewport = {
+  themeColor: "#000000",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -96,4 +113,3 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
-
